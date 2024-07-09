@@ -33,8 +33,8 @@ def count_letters_in_words(number):
         word_without_spaces_or_hyphens = word.replace(" ", "").replace("-", "")
         total_letters += len(word_without_spaces_or_hyphens)
     return total_letters
-def solveEuler17():
+def solveEscape17():
     total_letters = count_letters_in_words(1000)
     print("Total letters used from 1 to 1000:", total_letters)
 if _name_ == "_main_":
-    solveEuler17()
+    solveEscape17()
